@@ -10,3 +10,7 @@ h2 { font-size: 1.2rem; margin-top: 2em; }
 a { color: var(--link); }
 code { font-size: 0.9em; }
 p:has(+ h1) { color: var(--muted); }
+nav.top { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 0.95rem;
+          padding-bottom: 12px; border-bottom: 1px solid color-mix(in srgb, var(--fg) 15%, transparent); }
+nav.top .yt { margin-right: auto; }
+nav.top .yt strong { color: #ff0033; }
